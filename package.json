@@ -1,0 +1,33 @@
+{
+  "name": "hexo-tag-githubimage",
+  "version": "0.0.1",
+  "description": "Inserts an image tag using a github content distribution.",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wizicer/hexo-tag-githubimage.git"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "hexo",
+    "image",
+    "embed",
+    "github"
+  ],
+  "author": {
+    "name": "Icer, Liang",
+    "email": "liangshuangde@163.com",
+    "url": "http://icerdesign.com/"
+  },
+  "license": "MIT",
+  "engines": {
+    "hexo": ">= 1.0.0"
+  },
+  "dependencies": {
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/wizicer/hexo-tag-githubimage/issues"
+  }
+}
