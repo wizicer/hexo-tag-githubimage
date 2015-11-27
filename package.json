@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-githubimage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inserts an image tag using a github content distribution.",
   "main": "index",
   "repository": {

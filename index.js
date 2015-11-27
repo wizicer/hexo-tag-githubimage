@@ -1,4 +1,4 @@
-var githubResourceUrl = "https://raw.githubusercontent.com/";
+var githubResourceUrl = "https://raw.githubusercontent.com";
 
 /**
  * Github image tag
