@@ -1,4 +1,3 @@
-var htmlTag = hexo.util.html_tag;
 var githubResourceUrl = "https://raw.githubusercontent.com/";
 
 /**
@@ -7,7 +6,7 @@ var githubResourceUrl = "https://raw.githubusercontent.com/";
  * Syntax:
  *   {% ghimg /githubusername/repositoryname/branchname/path/to/image [class1,class2,classN] [JSONImageAttributes] %}
  */
-hexo.extend.tag.register('ghimg', function(args, content){
+hexo.extend.tag.register('ghimg', function(args){
     var imageId = args[0];
     var classes = args[1] || "";
     var imgAttr = args[2] || "{}";
@@ -18,5 +17,5 @@ hexo.extend.tag.register('ghimg', function(args, content){
     imgAttr.src   = githubResourceUrl + imageId;
     imgAttr.class = classes.join(' ');
 
-    return htmlTag('img', imgAttr);
+    return "<img src='" + imgAttr.src + "' class='" + imgAttr.class + "' />";
 });

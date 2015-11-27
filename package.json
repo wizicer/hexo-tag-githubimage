@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-githubimage",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Inserts an image tag using a github content distribution.",
   "main": "index",
   "repository": {
@@ -22,10 +22,9 @@
   },
   "license": "MIT",
   "engines": {
-    "hexo": ">= 1.0.0"
+    "hexo": ">= 3.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/wizicer/hexo-tag-githubimage/issues"

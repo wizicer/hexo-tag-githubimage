@@ -3,6 +3,10 @@
 This is a [hexo](https://github.com/tommy351/hexo)
 tag plugin which allows you to embed an image stored on your Github repository with specific branch.
 
+## Hexo Version
+
+For 2.x, use version 0.0.1 of this plugin. Version 0.1.x and beyond only support Hexo v3.x.
+
 ## Installation
 
 To install, run the following command in the root directory of hexo:
